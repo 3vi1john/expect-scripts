@@ -1,5 +1,5 @@
 #!/usr/bin/expect --
-# Telnet script for switches 10.0.0.1, 10.0.4.3, 10.0.5.1, and 10.0.0.3
+# 
 set list [open "coreswitches.txt"]
 set filedata [ read $list]
 foreach i $filedata {
