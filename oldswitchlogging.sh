@@ -1,5 +1,5 @@
 #!/usr/bin/expect --
-#
+#script for old HP switches
 set list [open "oldswitches.txt"]
 set filedata [ read $list]
 foreach i $filedata {
